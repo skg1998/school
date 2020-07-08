@@ -1,0 +1,32 @@
+{
+  "name": "school",
+  "version": "1.0.0",
+  "description": "It is a school dashboard using MEAN stack",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "author": "Sahil Gupta",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  },
+  "dependencies": {
+    "async": "^3.2.0",
+    "bcrypt": "^4.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "connect-mongodb-session": "^2.0.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.3",
+    "express-flash": "0.0.2",
+    "express-session": "^1.15.6",
+    "express-validator": "^5.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "method-override": "^3.0.0",
+    "mongodb": "^3.1.6",
+    "mongoose": "^5.2.17"
+  }
+}
